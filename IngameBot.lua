@@ -1,8 +1,8 @@
 print("[BP] Bot Loaded")
 
 -- Variables
-local website = "https://bloxyplus.com"
-local auth = "c925b07c7bdc068b4c602c618e51308d"
+local website = "http://127.0.0.1:5000"
+local auth = "123456123456"
 local request = http_request or request or HttpPost or syn.request
 
 local players = game:GetService("Players")
